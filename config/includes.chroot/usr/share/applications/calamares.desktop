@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Tabian OS
+GenericName=System Installer
+Keywords=calamares;installer;
+TryExec=calamares
+Exec=sudo -E calamares -d --config=/etc/calamares
+Icon=calamares
+Terminal=false
+Categories=Qt;System;

@@ -1,0 +1,53 @@
+# --- Base System & Core Desktop ---
+plasma-desktop
+sddm
+# KDE Network Manager applet (Crucial for Ethernet/Wi-Fi)
+plasma-nm
+# Terminal emulator
+konsole
+# File manager
+dolphin
+kio-extras
+# --- XORG & Display Essentials ---
+xorg
+#display drivers (Intel, AMD, Nouveau)
+xserver-xorg-video-all    
+xserver-xorg-input-libinput
+# --- Live Environment Tools ---
+live-boot
+live-config
+live-config-systemd
+sudo                      
+user-setup           
+spice-vdagent
+partitionmanager
+dosfstools
+mtools
+squashfs-tools
+libkpmcore12
+# --- The Installer Engine ---
+calamares
+calamares-settings-debian
+# Allows running graphical apps (like Calamares) as root
+pkexec  
+# Allows changing the keyboard layout
+keyboard-configuration
+xkb-data
+# --- Networking & System Utilities ---
+network-manager
+curl
+wget
+git
+pciutils 
+usbutils
+bash-completion
+cracklib-runtime
+wamerican
+openssh-server
+grub-pc
+grub-common
+grub-efi-amd64-
+grub-efi-amd64-bin-
+ufw
+locales
+locales-all
